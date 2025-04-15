@@ -32,14 +32,17 @@ h1 {
 
 /* Horizontal navigation links */
 #hlinks {
-    display: flex;
-    justify-content: space-between; 
-    width: 100%; 
-    max-width: 45em;
-    margin: 0 auto; 
-    padding: 0.5em 0; 
-    border-top: .3em solid  #85c1e9 ;
-    font-variant: small-caps;
+  width: 100%;
+  max-width: 45em;
+  margin: 0 auto;
+  padding: 0.5em 0;
+  border-top: 0.3em solid #85c1e9;
+  font-variant: small-caps;
+  display: flex;
+  gap: 3em; /* adjust as needed */
+  justify-content: flex-start; /* or center, if preferred */
+  background: #d6eaf8;
+
   }
 
   #hlinks a:hover {
@@ -68,10 +71,10 @@ footer {
  
  /* Dropdown Button */
  .dropbtn {
-    background-color: white;
+  background-color: transparent;
     margin: 0 auto; 
     color: #21618c;
-    padding: 0.1em 0;
+    padding: 0em 0;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: inherit;
     font-variant: small-caps;
@@ -190,4 +193,9 @@ max-width: 10em;
 
 p {
     margin-bottom: 2em;
+      }
+
+.material-symbols-outlined {
+        padding-top: 0em; 
+        padding-left: 1em;
       }
