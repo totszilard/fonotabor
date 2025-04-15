@@ -36,12 +36,12 @@ h1 {
   max-width: 45em;
   margin: 0 auto;
   padding: 0.5em 0;
-  border-top: 0.3em solid #85c1e9;
+  border-top: 0.3em solid #21618c;
   font-variant: small-caps;
   display: flex;
   gap: 3em; /* adjust as needed */
   justify-content: flex-start; /* or center, if preferred */
-  background: #d6eaf8;
+  /*background:  #d6e3d7;*/
 
   }
 
@@ -195,7 +195,14 @@ p {
     margin-bottom: 2em;
       }
 
-.material-symbols-outlined {
-        padding-top: 0em; 
-        padding-left: 1em;
+.custhome {
+    position: relative;
+     top: -0.17em;
+        padding-left: 0.5em;
+        color: #21618c;
       }
+.custhome:hover {
+        color: gray; /* or use #888, #ccc, etc. for different gray tones */
+        cursor: pointer; /* optional, gives visual feedback it's interactive */
+      }
+      
