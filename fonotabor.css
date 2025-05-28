@@ -205,4 +205,19 @@ p {
         color: gray; /* or use #888, #ccc, etc. for different gray tones */
         cursor: pointer; /* optional, gives visual feedback it's interactive */
       }
+
+.paragraph-with-line {
+        position: relative;
+        padding-left: 1em; /* spacing between line and text */
+    }
+    
+.paragraph-with-line::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 3px; /* thickness of the line */
+        background-color: #85c1e9; /* color of the line */
+    }
       
